@@ -1,13 +1,17 @@
 body {  
     font-family: Arial, sans-serif;  
-    background-color: #f0f0f0;  
+    background-color: #f0f0f043;  
+    display: flex;             /* Use Flexbox */  
+    justify-content: center;   /* Center horizontally */  
+    align-items: center;       /* Center vertically */  
+    height: 100vh;            /* Full viewport height */  
+    margin: 0;                /* Remove default margin */  
     text-align: center;  
-}  
+} 
 
 #weather-app {  
-    margin: 50px auto;  
     padding: 20px;  
-    background: white;  
+    background: rgba(255, 255, 255, 0.279);  
     border-radius: 5px;  
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
     width: 300px;  
