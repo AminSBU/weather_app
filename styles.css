@@ -1,0 +1,25 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f0f0f0;  
+    text-align: center;  
+}  
+
+#weather-app {  
+    margin: 50px auto;  
+    padding: 20px;  
+    background: white;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    width: 300px;  
+}  
+
+input {  
+    padding: 10px;  
+    margin: 10px 0;  
+    width: calc(100% - 22px);  
+}  
+
+button {  
+    padding: 10px;  
+    cursor: pointer;  
+}  
